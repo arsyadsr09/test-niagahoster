@@ -229,3 +229,53 @@
     font-weight: 300;
   }
 }
+
+.modul {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .col-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.service {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .col-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-weight: 300;
+  }
+
+  .detail {
+    font-weight: 300;
+  }
+}
+
+.share {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f1f2f6;
+}
+
+.help {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $info;
+  color: white;
+
+  .button{
+    border: solid 2px white;
+    color: white;
+  }
+}
