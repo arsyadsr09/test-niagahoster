@@ -1,0 +1,231 @@
+.intro {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: solid 1px #f1f2f6;
+
+  .list-intro {
+    margin-top: 30px;
+
+    .list {
+      display: flex;
+      justify-self: center;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      font-weight: 300;
+
+      .check-green {
+        width: 25px;
+        height: 25px;
+        color: $success;
+      }
+    }
+  }
+}
+
+.tech {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .col-option {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.package {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .col-option {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .badge-selected {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+
+  .card-custom {
+    border: solid 1px #f1f2f6;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-left: -4px;
+    z-index: 3;
+
+    &.selected {
+      border: solid 1px $info;
+      color: white;
+    }
+
+    .hr {
+      width: 100%;
+      height: 1px;
+      background-color: #f1f2f6;
+
+      &.selected {
+        background-color: $info;
+      }
+    }
+
+    .selected {
+      background-color: $info;
+    }
+
+    .selected-primary {
+      background-color: $primary;
+    }
+
+    h3 {
+      margin: 0;
+      padding: 5px 0;
+      font-weight: 500;
+      &.selected {
+        background-color: $info;
+      }
+    }
+
+    .retail-price {
+      text-decoration: line-through;
+    }
+
+    .bold {
+      font-weight: 500;
+    }
+
+    .feature-list {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    .blue {
+      color: $info;
+    }
+
+    .black {
+      color: #2f3542;
+    }
+
+    .price-custom {
+      display: inline-flex;
+      justify-content: center;
+
+      h1 {
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        font-size: 50px;
+      }
+
+      h6 {
+        text-decoration: none;
+      }
+
+      span {
+        font-size: 20px;
+      }
+
+      .first-price {
+        font-weight: 300;
+        margin-top: 10px;
+      }
+
+      .last-price {
+        margin-top: 10px;
+        font-weight: 500;
+      }
+    }
+
+    h4 {
+      font-weight: 500;
+    }
+  }
+}
+
+.limit {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .success {
+    font-size: 20px;
+  }
+
+  .col-option {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .table-custom {
+    font-weight: 300;
+    border: solid 1px #f1f2f6;
+  }
+}
+
+.feature {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .col-option {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .feature-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+
+.support {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px #f1f2f6;
+
+  small {
+    font-weight: 300;
+  }
+
+  .col-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .list-support {
+    margin-top: 20px;
+
+    .list {
+      display: flex;
+      justify-self: center;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      font-weight: 300;
+      font-size: 15px;
+
+      .check-green {
+        width: 20px;
+        height: 20px;
+        color: $success;
+      }
+    }
+  }
+
+  h5 {
+    line-height: 32px;
+    font-weight: 300;
+  }
+}
