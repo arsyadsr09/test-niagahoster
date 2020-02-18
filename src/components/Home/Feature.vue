@@ -2,7 +2,7 @@
   .feature
     b-container
       b-row
-        b-col.col-option(cols="12")
+        b-col.col-option.text-center(cols="12")
           h3.text-w300 Semua Paket Hosting Sudah Termasuk
       b-row.mt-30px
         b-col.col-option.feature-list.my-20px(cols="4" v-for="(data, index) in featureList" :key="index")

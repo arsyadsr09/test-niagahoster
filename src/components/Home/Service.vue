@@ -2,7 +2,7 @@
   .service
     b-container
       b-row.mt-30px
-        b-col(cols="6")
+        b-col.text-center(cols="6")
           h2 Linux Hosting yang Stabil dengan Teknologi LVE
           .detail.mt-30px
             span SuperMicro 

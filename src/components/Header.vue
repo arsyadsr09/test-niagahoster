@@ -3,10 +3,10 @@
     .header-service
       b-container
         b-row
-          b-col(cols='6')
+          b-col(cols="6" xs="12" sm="12" md="6")
             img(src='../assets/images/bookmark.png' width='30px')
-            small.ml-10px.mb-10px Gratis Ebook 9 Cara Cerdas Menggunakan Domain [ x ]
-          b-col(cols='6')
+            small.ml-10px.mb-10px Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]
+          b-col(cols="6" xs="12" sm="12" md="6")
             .float-right.inline-header
               div.icon-service
                 font-awesome-icon.mr-15px(icon="phone-alt")
@@ -35,16 +35,16 @@
 </template>
 
 <script>
-import { library } from "@fortawesome/fontawesome-svg-core"
+import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faPhoneAlt,
   faComments,
   faUserCircle
-} from "@fortawesome/free-solid-svg-icons"
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faPhoneAlt, faComments, faUserCircle)
+library.add(faPhoneAlt, faComments, faUserCircle);
 export default {
   name: "Header",
   props: {}
-}
+};
 </script>

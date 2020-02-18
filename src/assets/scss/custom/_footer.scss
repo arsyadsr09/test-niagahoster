@@ -62,4 +62,9 @@
   .thin {
     font-weight: 200;
   }
+
+  .payment-method {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

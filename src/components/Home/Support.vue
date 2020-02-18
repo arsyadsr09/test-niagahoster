@@ -2,7 +2,7 @@
   .support
     b-container
       b-row
-        b-col.col-option(cols="12")
+        b-col.text-center.col-option(cols="12")
           h3.text-w300 Mendukung Penuh Framework Laravel
       b-row.mt-30px
         b-col(cols="6")

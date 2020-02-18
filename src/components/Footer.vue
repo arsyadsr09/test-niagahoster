@@ -68,9 +68,8 @@
       b-row.mt-70px.mb-40px
         b-col.col-option(cols="12")
           span.title-footer Pembayaran
-          .d-inline-flex.mb-20px
-            .mr-5px(v-for="(data, index) in paymentList" :key="index")
-              img(:src='data' height='35px')
+          .payment-method.mb-20px
+            img.mr-5px(:src='data' height='35px' v-for="(data, index) in paymentList" :key="index")
           span.thin Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif
       .hr.mb-20px
       b-row
@@ -101,7 +100,7 @@ export default {
         require("@/assets/svg/prima.svg"),
         require("@/assets/svg/visa.svg")
       ]
-    }
+    };
   }
-}
+};
 </script>

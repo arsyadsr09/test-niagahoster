@@ -3,7 +3,7 @@
     .share
       b-container
         b-row
-          b-col.d-flex.align-items-center(cols="6")
+          b-col.d-flex.align-items-center.text-center(cols="6")
             h6 Bagikan jika Anda menyukai halaman ini.
           b-col.d-flex.justify-content-end(cols="6")
             div.mr-25px

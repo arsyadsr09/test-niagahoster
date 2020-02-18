@@ -2,7 +2,7 @@
   .limit
     b-container
       b-row
-        b-col.col-option(cols="12")
+        b-col.col-option.text-center(cols="12")
           h3.text-w300 Powerful dengan Limit PHP yang Lebih Besar
       b-row.mt-30px
         b-col.col-option(cols="4" offset="2")

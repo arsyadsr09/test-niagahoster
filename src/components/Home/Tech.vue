@@ -2,7 +2,7 @@
   .tech
     b-container
       b-row
-        b-col.col-option(cols="8" offset="2")
+        b-col.text-center.col-option(cols="8" offset="2")
           .list
             img(src='../../assets/images/zendguard.png' width='200px')
             span PHP Zend Guard Loader
@@ -19,5 +19,5 @@
 export default {
   name: "Tech",
   props: {}
-}
+};
 </script>

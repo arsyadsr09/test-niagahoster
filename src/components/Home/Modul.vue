@@ -2,7 +2,7 @@
   .modul
     b-container
       b-row
-        b-col.col-option(cols="12")
+        b-col.col-option.text-center(cols="12")
           h3.text-w300 Modul Lengkap untuk Menjalankan Aplikasi PHP Anda
       b-row.mt-30px
         b-col(cols="10" offset="1")

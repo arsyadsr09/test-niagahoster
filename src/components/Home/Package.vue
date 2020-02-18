@@ -2,11 +2,11 @@
   .package
     b-container
       b-row
-        b-col.col-option.mb-20px(cols="12")
+        b-col.col-option.mb-20px.text-center(cols="12")
           h2 Paket Hosting Singapura yang Tepat
           h3.text-w300 Diskon 40% + Domain dan SSL Gratis untuk Anda
       b-row.mt-40px
-        b-col(cols="3" v-for="(data, index) in packageList" :key="index")
+        b-col(cols="3" xs="6" sm="6" md="3" v-for="(data, index) in packageList" :key="index")
           .card-custom(v-bind:class="data.type == 0 ? '' : 'selected'")
             h3(v-bind:class="data.type == 0 ? '' : 'selected'") {{data.name}}
             .hr(v-bind:class="data.type == 0 ? '' : 'selected'")

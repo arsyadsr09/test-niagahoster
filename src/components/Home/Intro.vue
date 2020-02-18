@@ -2,7 +2,7 @@
   .intro
     b-container
       b-row
-        b-col(cols="6")
+        b-col.text-center(cols="6")
           h1.title PHP Hosting
           h2.subtitle Cepat, handal, penuh dengan modul PHP yang Anda butuhkan
           .list-intro
